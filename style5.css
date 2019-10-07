@@ -1,0 +1,23 @@
+a{
+    text-decoration: none;
+    position: relative;
+    color: #069;
+  }
+a::after, a::before{
+    content: "";
+    background: green;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    width: 100%;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all .2s ease-in-out;
+}
+
+a:hover::after, a:hover::before{
+    
+    visibility: visible;
+    transform: scaleX(1);
+  }

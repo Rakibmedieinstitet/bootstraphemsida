@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+}
+#parent {
+    border: 2px solid black;
+    height: 900px;
+    width: 850px;
+    position: relative;
+}
+div{
+    border: 2px solid seagreen;
+    height: 200px;
+    width: 100px;
+    margin: 2px;
+}
+
+#id-1 {
+    background: teal;
+    position: absolute;
+    
+    left: 25%;
+    top:25%;
+   
+    
+}
+#id-2 {
+    background: indigo;
+    position: absolute;
+    right: 35%;
+    top:25%;
+}
+#id-3 {
+    background: lightcoral;
+    position: absolute;
+    right: 35%;
+    bottom: 25%;
+
+}
+#id-4 {
+    background: khaki;
+    position: absolute;
+    left: 25%;
+    bottom: 25%;
+}
