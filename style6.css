@@ -1,0 +1,20 @@
+
+.gridContainer {
+
+    height: 700px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+       grid-template-rows: repeat(3, 1fr);
+    grid-gap: 60px;
+}
+
+
+.griditems{
+    background: turquoise;
+    height: 100px;
+
+}
+.item-3 {
+   order: -1;
+
+}
